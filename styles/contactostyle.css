@@ -1,7 +1,7 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("ballenafondo.jpg")
+    background-image: url("waikikifondo.jpg")
 }
 
 .titulo {
@@ -37,12 +37,42 @@ body {
     font-size: 22px;
     background-color: aliceblue;
     opacity: 60%;
-    text-align: justify;
+    text-align: center;
+}
+form{
+    margin-left: 430px;
+}
+form label{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
 }
 
-#video {
-    margin-left: 350px;
-    padding: auto;
+.imputstyle{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+#enviar{
+    width: 100px;
+    height: 50px;
+    margin-left: 170px;
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 20px;
+    background: lightseagreen;
+    opacity: 70%;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+#enviar:hover{
+    transform: scale(1.2);
+    opacity: 90%;
+    
 }
 footer {
     text-align: center;
@@ -62,4 +92,6 @@ footer a:hover{
     text-decoration: underline;
     font-size: 20px;
     font-weight: bolder;
+
 }
+
