@@ -1,0 +1,54 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("fondomar.jpg")
+}
+
+.titulo {
+    color: darkblue;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.lista {
+    color: darkblue;
+    padding: 10px;
+    text-decoration: none;
+}
+#elemento {
+    display: inline-flex;
+    position: relative;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#pagina:hover {
+    font-size: 30px;
+    color: darkred;
+    font-weight: bolder;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.texto {
+    font-size: 22px;
+    background-color: aliceblue;
+    opacity: 60%;
+    text-align: justify;
+}
+
+#mapa {
+    display: inline-flex;
+    position: relative;
+    margin-left: 480px;
+    width: 30%;
+    height: 30%;
+    border-radius: 15px;
+}
+
+
